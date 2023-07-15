@@ -1,0 +1,36 @@
+
+.app{
+  font-family:"sans-serif";
+  padding: 1.5rem;
+  background-color: #000;
+  text-align: center;
+}
+
+.heading{
+  text-align: center;
+  font-size: 2rem;
+  padding: 20px 0 30px;
+  color: #fff;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:40px;
+  
+}
+.card{
+  border-radius: 16px;
+  background-color: #fff;
+  padding: 25px 15px;
+  margin: 25px 0;
+  width: ;
+  /* height: 500px; */
+}
+.card img{
+  margin: 1rem 0;
+  clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 82%);
+}
+.card p{
+  text-align: left;
+  font-style: italic;
+}
